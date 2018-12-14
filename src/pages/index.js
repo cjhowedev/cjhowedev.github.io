@@ -5,7 +5,8 @@ import Col from 'react-bootstrap/lib/Col'
 import ListGroup from 'react-bootstrap/lib/ListGroup'
 import Row from 'react-bootstrap/lib/Row'
 import Layout from '../components/layout'
-import Resume from '../resume.pdf'
+import AvatarImage from '../images/me.jpg'
+import styles from './index.module.css'
 
 const IndexPage = ({
   data: {
@@ -15,17 +16,24 @@ const IndexPage = ({
   <Layout>
     <Row>
       <Col>
-        <a href={Resume}>Download a PDF copy instead</a>
-        <h1>Christian Howe</h1>
-        <p>
-          I am a software engineer who has been programming for 13 years,
-          starting at the age of 12. I am interested in working with iOS mobile
-          software, web development, and software engineering, especially in a
-          functional style. My especially broad knowledge and high adaptability
-          is due to much of my experience coming from personal experience in
-          open source. I am looking for full-time position in front-end or
-          full-stack software engineering.
-        </p>
+        <h3>Biography</h3>
+        <div className={styles.biocontainer}>
+          <img
+            className={styles.avatar}
+            src={AvatarImage}
+            height={100}
+            alt="Portrait of Christian"
+          />
+          <p className={styles.profile}>
+            I am a software engineer who has been programming for 13 years,
+            starting at the age of 12. I am interested in working with iOS
+            mobile software, web development, and software engineering,
+            especially in a functional style. My especially broad knowledge and
+            high adaptability is due to much of my experience coming from
+            personal experience in open source. I am looking for full-time
+            position in front-end or full-stack software engineering.
+          </p>
+        </div>
         <h3>Employment History</h3>
       </Col>
     </Row>

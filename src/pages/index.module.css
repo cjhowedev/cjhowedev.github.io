@@ -1,0 +1,15 @@
+.biocontainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.profile {
+  align-self: flex-end;
+  margin-left: 1rem;
+}
+
+.avatar {
+  align-self: flex-start;
+}
