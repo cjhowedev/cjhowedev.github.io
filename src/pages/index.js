@@ -16,7 +16,7 @@ const IndexPage = ({
   <Layout>
     <Row>
       <Col>
-        <h3>Biography</h3>
+        <h3 className={styles.biographyHeader}>Biography</h3>
         <div className={styles.biocontainer}>
           <img
             className={styles.avatar}
@@ -25,13 +25,13 @@ const IndexPage = ({
             alt="Portrait of Christian"
           />
           <p className={styles.profile}>
-            I am a software engineer who has been programming for 13 years,
-            starting at the age of 12. I am interested in working with iOS
-            mobile software, web development, and software engineering,
-            especially in a functional style. My especially broad knowledge and
-            high adaptability is due to much of my experience coming from
-            personal experience in open source. I am looking for full-time
-            position in front-end or full-stack software engineering.
+            I have been programming for 13 years, starting at the age of 12. I
+            am interested in working with iOS mobile software, web development,
+            and software engineering, especially in a functional style. My
+            especially broad knowledge and high adaptability is due to much of
+            my experience coming from personal experience in open source
+            software. I am looking for a full-time position in front-end or
+            full-stack software engineering.
           </p>
         </div>
         <h3>Employment History</h3>
@@ -64,7 +64,7 @@ const IndexPage = ({
       <Col>
         <h3>Education</h3>
         <p>
-          <b>Virginia Tech</b> — Computer Science, Fall 2018 (Expected)
+          <b>Virginia Tech</b> — Computer Science, Fall 2018
         </p>
         <h3>Skills</h3>
       </Col>
@@ -78,22 +78,20 @@ const IndexPage = ({
           <ListGroup.Item>React, Redux, Next.js, Gatsby</ListGroup.Item>
           <ListGroup.Item>RxJS, RxSwift, MVVM</ListGroup.Item>
           <ListGroup.Item>GraphQL/Apollo</ListGroup.Item>
-          <ListGroup.Item>HTML, CSS and SASS</ListGroup.Item>
         </ListGroup>
       </Col>
       <Col xs="6">
         <ListGroup>
-          <ListGroup.Item>Implementing mockup designs</ListGroup.Item>
-          <ListGroup.Item>Functional Programming</ListGroup.Item>
+          <ListGroup.Item>HTML, CSS and SASS</ListGroup.Item>
+          <ListGroup.Item>Functional Programming, Elm</ListGroup.Item>
           <ListGroup.Item>Elixir, OTP, distributed systems</ListGroup.Item>
           <ListGroup.Item>Git/Github and open source</ListGroup.Item>
           <ListGroup.Item>
             <a href="https://github.com/ankhers/mongodb/blob/master/lib/mongo/topology_description.ex">
               MongoDB
             </a>
-            , SQL, Firebase
+            , PostgreSQL, Firebase
           </ListGroup.Item>
-          <ListGroup.Item>Fast learner, adaptable</ListGroup.Item>
           <ListGroup.Item>Linux, OS X and Windows</ListGroup.Item>
         </ListGroup>
       </Col>

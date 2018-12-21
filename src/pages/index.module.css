@@ -1,3 +1,7 @@
+.biographyHeader {
+  margin-top: 1rem;
+}
+
 .biocontainer {
   display: flex;
   flex-direction: row;

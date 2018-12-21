@@ -6,11 +6,14 @@ import Resume from '../resume.pdf'
 const Header = ({ siteTitle }) => (
   <Navbar bg="dark" variant="dark">
     <Navbar.Brand>{siteTitle}</Navbar.Brand>
-    <Nav>
-      <Nav.Link href="/">Resume</Nav.Link>
-      {/* <Nav.Link href="#">Blog</Nav.Link> */}
-    </Nav>
+    <Navbar.Text>Software Engineer</Navbar.Text>
     <Nav className="ml-auto">
+      <Nav.Link href="https://github.com/cjhowe7" target="_blank">
+        GitHub
+      </Nav.Link>
+      <Nav.Link href="https://twitter.com/cjhowe7" target="_blank">
+        Twitter
+      </Nav.Link>
       <Nav.Link href={Resume} target="_blank">
         Download PDF
       </Nav.Link>
