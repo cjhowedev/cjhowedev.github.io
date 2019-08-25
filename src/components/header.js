@@ -8,10 +8,10 @@ const Header = ({ siteTitle }) => (
     <Navbar.Brand>{siteTitle}</Navbar.Brand>
     <Navbar.Text>Software Engineer</Navbar.Text>
     <Nav className="ml-auto">
-      <Nav.Link href="https://github.com/cjhowe7" target="_blank">
+      <Nav.Link href="https://github.com/cjoftheweb" target="_blank">
         GitHub
       </Nav.Link>
-      <Nav.Link href="https://twitter.com/cjhowe7" target="_blank">
+      <Nav.Link href="https://twitter.com/cjoftheweb" target="_blank">
         Twitter
       </Nav.Link>
       <Nav.Link href={Resume} target="_blank">
